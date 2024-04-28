@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class Electeur extends Personne {
+	private String sexe;
+	private int age;
 	private String adresse;
 	private int num;
 
