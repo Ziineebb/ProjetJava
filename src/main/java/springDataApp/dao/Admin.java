@@ -14,7 +14,7 @@ public class Admin extends Personne {
 
 	@Override
 	public String toString() {
-		return "Admin [id=" + getId() +  ", getNom()=" + getNom() + ", getPrenom()=" + getPrenom()
+		return "Admin [id=" + getId() +  ", Prenom()=" + getPreom() + ", Nom()=" + getNom()
 		+", num=" + num +", getEmail()=" + getEmail() + "]";
 	}
 
