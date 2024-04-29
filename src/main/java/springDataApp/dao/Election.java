@@ -15,14 +15,11 @@ import lombok.NoArgsConstructor;
 public class Election {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String titre;
 	private String type;
 	private String dateDebut;
 	private String dateFin;
 	private String status;
-	
-	
-	
 
 }
