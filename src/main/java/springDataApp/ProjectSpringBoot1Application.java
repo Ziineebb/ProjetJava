@@ -74,7 +74,7 @@ public class ProjectSpringBoot1Application {
 		gp.save(E);
 		gv.save(v);
 		gr.save(r);
-		
+	    gp.findAll().forEach(System.out::println);
 		
 		
 		
