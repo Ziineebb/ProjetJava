@@ -9,8 +9,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Candidat extends Personne{
-	private String partiPolitique;
-	private String circonscriptionElectorale;
+public class Candidat extends Personne {
+	private String region;
+	private String parti;
+	@Override
+	public String toString() {
+		return "Candidat [Id=" + getId() + ", nom=" + getNom() + " ,prenom=" + getPrenom() + ", email=" + getEmail()
+				+ ", parti=" + parti + ", region=" + region + "]";
+	}
+	
 
 }
